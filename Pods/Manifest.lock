@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Designer (0.1.0)
+  - Extended (1.0.4)
+  - Fabric (1.9.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - lottie-ios (2.5.2)
+  - ReachabilitySwift (4.3.0)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - Designer
+  - Extended
+  - Fabric
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - ReachabilitySwift
+  - Realm
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Crashlytics
+    - Designer
+    - Extended
+    - Fabric
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Designer: 898fa6ef36d9bfabc117234cdabefd51dd8110f1
+  Extended: 94fe9d842694e7d81da413f5762d401829bbffd9
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 1f329013db1d5c4b6f7b8481635f1779caacc7de
+
+COCOAPODS: 1.6.0.beta.1
