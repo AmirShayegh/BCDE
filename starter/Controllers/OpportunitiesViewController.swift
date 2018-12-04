@@ -1,5 +1,5 @@
 //
-//  SprintWithUsViewController.swift
+//  OpportunitiesViewController.swift
 //  starter
 //
 //  Created by Amir Shayegh on 2018-12-03.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SprintWithUsViewController: BaseViewController {
+class OpportunitiesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,12 +16,12 @@ class SprintWithUsViewController: BaseViewController {
 
 }
 
-extension SprintWithUsViewController:  UITableViewDelegate, UITableViewDataSource {
+extension OpportunitiesViewController:  UITableViewDelegate, UITableViewDataSource {
     func setUpTable() {
         if self.tableView == nil { return }
         tableView.delegate = self
         tableView.dataSource = self
-        registerCell(name: "<#cellName#>")
+        registerCell(name: "OpportunityTableViewCell")
     }
 
     func registerCell(name: String) {
@@ -29,8 +29,8 @@ extension SprintWithUsViewController:  UITableViewDelegate, UITableViewDataSourc
         tableView.register(nib, forCellReuseIdentifier: name)
     }
 
-    func get<#cellName#>(indexPath: IndexPath) -> <#UITableViewCell#> {
-        return tableView.dequeueReusableCell(withIdentifier: "<#cellName#>", for: indexPath) as! <#UITableViewCell#>
+    func getOpportunity(indexPath: IndexPath) -> OpportunityTableViewCell {
+        return tableView.dequeueReusableCell(withIdentifier: "OpportunityTableViewCell", for: indexPath) as! OpportunityTableViewCell
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -39,4 +39,3 @@ extension SprintWithUsViewController:  UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     }
 }
-
