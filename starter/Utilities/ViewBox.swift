@@ -18,4 +18,8 @@ class ViewBox {
     lazy var privacy: PrivacyViewController = {
     return UIStoryboard(name: "Privacy", bundle: Bundle.main).instantiateViewController(withIdentifier: "Privacy") as! PrivacyViewController
     }()
+
+    lazy var opportunities: OpportunitiesViewController = {
+    return UIStoryboard(name: "Opportunities", bundle: Bundle.main).instantiateViewController(withIdentifier: "Opportunities") as! OpportunitiesViewController
+    }()
 }

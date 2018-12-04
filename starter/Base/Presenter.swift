@@ -24,4 +24,12 @@ extension ViewController {
         vc.setup(containerVC: self)
         show(viewController: vc)
     }
+
+    func showOpportunities() {
+        transitionOptions = [.showHideTransitionViews, leftTransitionAnimation]
+        let vb = ViewBox()
+        let vc = vb.opportunities
+        vc.setup(containerVC: self)
+        show(viewController: vc)
+    }
 }

@@ -13,6 +13,9 @@
 		29332DA021B63A2800950478 /* Opportunities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29332D9F21B63A2800950478 /* Opportunities.storyboard */; };
 		29332DA421B63A5700950478 /* OpportunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29332DA221B63A5700950478 /* OpportunityTableViewCell.swift */; };
 		29332DA521B63A5700950478 /* OpportunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29332DA321B63A5700950478 /* OpportunityTableViewCell.xib */; };
+		29332DA821B63AD800950478 /* Opportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29332DA721B63AD800950478 /* Opportunity.swift */; };
+		29332DAB21B63B9500950478 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29332DAA21B63B9500950478 /* API.swift */; };
+		29332DAE21B63BB300950478 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29332DAD21B63BB300950478 /* Constants.swift */; };
 		299D3EA7217A9C780000781E /* Designer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EA6217A9C780000781E /* Designer.swift */; };
 		299D3EA9217A9C970000781E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EA8217A9C970000781E /* Theme.swift */; };
 		299D3EAB217AA2770000781E /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D3EAA217AA2770000781E /* Presenter.swift */; };
@@ -37,6 +40,9 @@
 		29332D9F21B63A2800950478 /* Opportunities.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Opportunities.storyboard; sourceTree = "<group>"; };
 		29332DA221B63A5700950478 /* OpportunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpportunityTableViewCell.swift; sourceTree = "<group>"; };
 		29332DA321B63A5700950478 /* OpportunityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpportunityTableViewCell.xib; sourceTree = "<group>"; };
+		29332DA721B63AD800950478 /* Opportunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opportunity.swift; sourceTree = "<group>"; };
+		29332DAA21B63B9500950478 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		29332DAD21B63BB300950478 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		299D3EA6217A9C780000781E /* Designer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designer.swift; sourceTree = "<group>"; };
 		299D3EA8217A9C970000781E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		299D3EAA217AA2770000781E /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
@@ -88,6 +94,30 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		29332DA621B63AC900950478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29332DA721B63AD800950478 /* Opportunity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29332DA921B63B8600950478 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				29332DAA21B63B9500950478 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		29332DAC21B63BA500950478 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				29332DAD21B63BB300950478 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		299D3EAC217AA2A20000781E /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +150,9 @@
 		29D79D45217A995100855785 /* starter */ = {
 			isa = PBXGroup;
 			children = (
+				29332DAC21B63BA500950478 /* Constants */,
+				29332DA921B63B8600950478 /* API */,
+				29332DA621B63AC900950478 /* Models */,
 				29332DA121B63A3000950478 /* Cells */,
 				299D3EAC217AA2A20000781E /* Base */,
 				29D79D5C217A9AAF00855785 /* Utilities */,
@@ -319,9 +352,12 @@
 				29D79D49217A995100855785 /* ViewController.swift in Sources */,
 				29332D9621B631A000950478 /* Loading.swift in Sources */,
 				299D3EA7217A9C780000781E /* Designer.swift in Sources */,
+				29332DAE21B63BB300950478 /* Constants.swift in Sources */,
 				29332DA421B63A5700950478 /* OpportunityTableViewCell.swift in Sources */,
+				29332DAB21B63B9500950478 /* API.swift in Sources */,
 				299D3EAB217AA2770000781E /* Presenter.swift in Sources */,
 				29D79D47217A995100855785 /* AppDelegate.swift in Sources */,
+				29332DA821B63AD800950478 /* Opportunity.swift in Sources */,
 				299D3EAE217AA6820000781E /* PrivacyViewController.swift in Sources */,
 				29D79D59217A9A7700855785 /* ViewBox.swift in Sources */,
 				29D79D60217A9AD400855785 /* HomeViewController.swift in Sources */,

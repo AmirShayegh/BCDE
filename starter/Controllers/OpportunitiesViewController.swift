@@ -10,6 +10,8 @@ import UIKit
 
 class OpportunitiesViewController: UIViewController {
 
+    var opportunities: [Opportunity] = [Opportunity]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -34,8 +36,12 @@ extension OpportunitiesViewController:  UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = getOpportunity(indexPath: indexPath)
+
+        return cell
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        opportunities.count
     }
 }
